@@ -1,0 +1,49 @@
+body {
+  background: rgba(26,55,77,0);
+}
+
+#about {
+  background: rgba(177,208,224,0.02);
+  margin-top: 5%;
+}
+
+/* Checkbox */
+
+#checkbox {
+  margin-top: 100px;
+}
+
+#check {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.form-check {
+  background-color: #ffffff;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 30px;
+}
+
+.form-check-label {
+  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+#footer {
+  margin-top: 5%;
+}
+
+#con-hasil {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#Dh1 {
+  color: #3e4345;
+  font-weight: bold;
+  font-family: 'Lato';
+}
+
