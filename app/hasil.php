@@ -49,7 +49,7 @@ if(isset($_POST['proses']))
                                 WHERE rule.maka=penyakit.kode AND
                                 rule.jika='$all' AND penyakit.kode=solusi.kd_penyakit ");
 			if(mysqli_num_rows($sql) == 0){
-                header('location:diagnosa/diagnosa.php?error=Tidak ditemukan penyakit gigi dengan gejala tersebut.');		
+                header('location:diagnosa.php?error=Tidak ditemukan penyakit gigi dengan gejala tersebut.');		
                     }else{
                 $row = mysqli_fetch_array($sql);
 			}
@@ -101,7 +101,7 @@ while ($no <= 37){
     </p>
 </div></div> -->
         <div class="col" id="but" style="margin-top: 20px;">
-              <a class="btn" href="diagnosa.php" > Kembali <a/>
+            <a class="btn" href="diagnosa.php" > Kembali <a/>
         </div>
         </div>
         
